@@ -1,0 +1,1 @@
+O projeto foi feito com analise de dados e o aprendizado de uma IA utilizando sklearn para que ela pude-se dizer quais contas eram boas ou ruins para o emprestimo do banco
