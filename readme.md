@@ -1,36 +1,69 @@
-# 🤖 Projeto IA
+# 🏦 Projeto de Análise de Dados — Empréstimos Bancários
 
-Projeto focado no desenvolvimento de aplicações de **Inteligência Artificial (IA)**, com o objetivo de aplicar conceitos de aprendizagem de máquina, redes neurais, pré-processamento de dados e geração de insights.
-
----
-
-## 🎯 Visão Geral
-
-Este repositório reúne algoritmos e experimentos de IA que visam resolver problemas reais ou de estudo — desde classificação, regressão, análise de dados e visualização, até possíveis modelos de pré-treinamento ou automação inteligente.
+Este projeto tem como objetivo **analisar dados de clientes de um banco** para identificar **padrões de comportamento** e **perfis de risco de crédito**, auxiliando na tomada de decisão para concessão de empréstimos.  
+A análise foi desenvolvida em **Python**, utilizando bibliotecas voltadas à **ciência de dados, estatística e machine learning**.
 
 ---
 
-## 🛠 Funcionalidades
+## 🎯 Objetivos do Projeto
 
-- Leitura e tratamento de dados (por exemplo, arquivos CSV, JSON ou via API)  
-- Pré-processamento ( limpeza de dados, normalização, feature-engineering )  
-- Treinamento e avaliação de modelos (algoritmos de machine learning, redes neurais)  
-- Visualização de resultados (gráficos, métricas de desempenho, comparação de modelos)  
-- Possível aplicação ou protótipo funcional (se existente) com IA aplicada ao problema escolhido  
+- Explorar e compreender o perfil dos clientes do banco.  
+- Identificar padrões de comportamento entre clientes aprovados e reprovados.  
+- Analisar correlações entre variáveis (ex: renda, idade, score, histórico de crédito).  
+- Aplicar técnicas de análise exploratória e visualização de dados.  
+- Gerar **insights** que possam apoiar políticas de crédito mais seguras e eficazes.
 
 ---
 
-## 📦 Tecnologias Utilizadas
+## 🧩 Estrutura do Projeto
 
-- Linguagem: **Python 3.x**  
-- Bibliotecas: por exemplo, Pandas, NumPy, scikit-learn, TensorFlow ou PyTorch  
-- Ambiente de experimentação: jupyter notebook ou scripts Python  
-- Visualização: Matplotlib, Seaborn ou similares  
+| Arquivo | Descrição |
+|----------|------------|
+| **`Analise_dados.ipynb`** | Notebook principal com toda a análise exploratória dos dados. |
+| **`clientes.csv`** | Base original de clientes com informações gerais. |
+| **`novos_clientes.csv`** | Base adicional com novos registros para comparação e insights. |
+
+---
+
+## 📊 Principais Etapas da Análise
+
+1. **Importação e limpeza de dados**  
+   - Remoção de valores nulos e duplicados.  
+   - Padronização de tipos de dados e colunas.
+
+2. **Análise exploratória (EDA)**  
+   - Estatísticas descritivas e distribuição das variáveis.  
+   - Identificação de outliers e possíveis inconsistências.  
+   - Correlação entre atributos financeiros e score de crédito.
+
+3. **Visualização de dados**  
+   - Geração de gráficos com **Matplotlib** e **Seaborn**.  
+   - Visualização de perfis de clientes e tendências.
+
+4. **Comparação entre bases**  
+   - Comparação entre **clientes existentes** e **novos clientes**.  
+   - Identificação de padrões semelhantes e perfis de risco.
+
+5. **Insights e Conclusões**  
+   - Quais características mais influenciam a aprovação de empréstimos.  
+   - Quais perfis apresentam maior risco.  
+   - Recomendações de política de crédito.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Python 3.x**  
+- **Pandas** → Manipulação e limpeza de dados  
+- **NumPy** → Cálculos numéricos  
+- **Matplotlib / Seaborn** → Visualização de dados  
+- **Scikit-learn** → Modelos estatísticos e machine learning (caso aplicável)  
+- **Jupyter Notebook** → Ambiente interativo de análise  
 
 ---
 
 ## 🚀 Como Executar o Projeto
 
-1. **Clone o repositório**  
+1. Clone este repositório:  
    ```bash
-   git clone https://github.com/GabrielParra23/Projeto-IA.git
+   git clone https://github.com/GabrielParra23/Projeto-Analise-Dados.git
